@@ -1,2 +1,48 @@
 \chapter{Vorbereitung}
 
+    \section{Kräfte zwischen Atomen}
+        \subsection{Van-der-Waals Kräfte}
+
+\begin{figure}[htb]
+    \centering
+    \includegraphics[width=0.6\textwidth]{Abb/vdw.pdf}
+    \caption{Van-der-Waals Kraft zwischen zwei Teilchen}
+    \label{vdw}
+\end{figure}
+
+Die Ladungsverteilung in Atomen ist nicht konstant, sondern unterliegt ständiger 
+Fluktuation. Der Schwerpunkt der negativen Ladungen kann hierbei vom dem der
+positiven Ladungen abweichen. Ist dies der Fall, so entsteht ein Dipol. 
+Befindet sich nun ein zweites Teilchen in der Nähe dieses Atoms, so wird auch
+in diesem ein Dipol induziert. Zeigt die positive Seite des ersten Atoms zu Atom 2,
+so werden die Elektronen des zweiten Atoms angezogen. Ist es die negative Seite, so
+werden die Elektronen abgestoßen. \par
+Als Folge dessen synchronisieren sich die Ladungsänderungen der beiden Atome. Eine
+schwache positive Anziehung ist die Folge. Diese ist proportional zu $\displaystyle
+\frac{-1}{r^6}$.
+
+        \subsection{Pauli-Abstoßung}
+
+Nähern sich die Atome weiter an, so kommt es zu einem Überlappen der 
+Elektronenorbitale. Das Pauli-Verbot verhindert hierbei, dass zwei Elektronen den
+gleichen Zustand besetzen. Einige Elektronen werden folglich in einen energetisch
+höheren Zustand gezwungen. \par
+So führt eine Orbitalüberlagerung zu einer repulsiven Wechselwirkung. Die Kraft
+ist proportional zu $\displaystyle \frac{1}{r^{12}}$.
+
+        \subsection{Lennard-Jones Potential}
+
+Bei sehr kleinen Abständen dominiert die Pauli-Abstoßung, bei größeren die 
+van-der-Waals Kräfte. Die Summe aus beiden Potentialen wird Lennard-Jones 
+Potential gennant. 
+\[
+   \phi (r) \propto \frac{A}{r^6} - \frac{B}{r^{12}}    
+\]
+
+\begin{figure}[hb]
+    \centering
+    \includegraphics[width=0.6\textwidth]{Abb/ljp.jpg}
+    \caption{Das Lennard-Jones Potential als Summe der vdW-Wechselwirkung und
+             der Pauli-Abstoßung}
+    \label{ljp}
+\end{figure}
