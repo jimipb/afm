@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.9.5)  8 OCT 2019 16:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.9.5)  8 OCT 2019 16:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1152,7 +1152,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 \c__siunitx_mathtt_int=\count295
  (./titlepage.tex
-</home/jonas/logo_ur/ur-logo-bildmarke-grau.png, id=52, 277.035pt x 191.71625pt
+</home/jonas/logo_ur/ur-logo-bildmarke-grau.png, id=56, 277.035pt x 191.71625pt
 >
 File: /home/jonas/logo_ur/ur-logo-bildmarke-grau.png Graphic file (type png)
 <use /home/jonas/logo_ur/ur-logo-bildmarke-grau.png>
@@ -1234,7 +1234,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 4.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 4.
-<Abb/vdw.pdf, id=86, 54.62859pt x 13.77235pt>
+<Abb/vdw.pdf, id=91, 54.62859pt x 13.77235pt>
 File: Abb/vdw.pdf Graphic file (type pdf)
 <use Abb/vdw.pdf>
 Package pdftex.def Info: Abb/vdw.pdf  used on input line 8.
@@ -1247,11 +1247,41 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 33.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 33.
-<Abb/ljp.jpg, id=87, 1435.51042pt x 1049.0561pt>
+<Abb/ljp.jpg, id=92, 1435.51042pt x 1049.0561pt>
 File: Abb/ljp.jpg Graphic file (type jpg)
 <use Abb/ljp.jpg>
 Package pdftex.def Info: Abb/ljp.jpg  used on input line 44.
 (pdftex.def)             Requested size: 250.95587pt x 183.39548pt.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 54.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 54.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 54.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 54.
+[4
+
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1}) 
+has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.54 
+      <./Abb/vdw.pdf>]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 57.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 57.
+<Abb/afm.jpg, id=109, 1204.5pt x 1168.365pt>
+File: Abb/afm.jpg Graphic file (type jpg)
+<use Abb/afm.jpg>
+Package pdftex.def Info: Abb/afm.jpg  used on input line 61.
+(pdftex.def)             Requested size: 250.95587pt x 243.42065pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 ) (./Kap/durchfuehrung.tex
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
@@ -1261,15 +1291,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1.
- [4
-
-pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1}) 
-has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.1 \chapter
-            {Versuchsdurchführung} <./Abb/vdw.pdf>]
+ [5]
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
@@ -1278,13 +1300,19 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1.
- [5pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2
+ [6pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.1 \chapter
-            {Versuchsdurchführung} <./Abb/ljp.jpg>]
+            {Versuchsdurchführung}pdfTeX warning (ext4): destination with the 
+same identifier (name{figure.2.3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1 \chapter
+            {Versuchsdurchführung} <./Abb/ljp.jpg> <./Abb/afm.jpg>]
 chapter 3.
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
@@ -1294,7 +1322,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 3.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 3.
-<Mess/freqsweep_2.pdf, id=109, 372.39125pt x 305.14pt>
+<Mess/freqsweep_2.pdf, id=120, 372.39125pt x 305.14pt>
 File: Mess/freqsweep_2.pdf Graphic file (type pdf)
 <use Mess/freqsweep_2.pdf>
 Package pdftex.def Info: Mess/freqsweep_2.pdf  used on input line 11.
@@ -1307,7 +1335,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 34.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 34.
-[6
+[7
 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1}) 
 has been already used, duplicate ignored
@@ -1320,7 +1348,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 35.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 35.
-<Mess/gitter_aso.pdf, id=128, 482.7636pt x 484.209pt>
+<Mess/gitter_aso.pdf, id=140, 482.7636pt x 484.209pt>
 File: Mess/gitter_aso.pdf Graphic file (type pdf)
 <use Mess/gitter_aso.pdf>
 Package pdftex.def Info: Mess/gitter_aso.pdf  used on input line 42.
@@ -1329,12 +1357,12 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 51.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 51.
-<Mess/spek_forw.pdf, id=130, 383.4325pt x 305.14pt>
+<Mess/spek_forw.pdf, id=142, 383.4325pt x 305.14pt>
 File: Mess/spek_forw.pdf Graphic file (type pdf)
 <use Mess/spek_forw.pdf>
 Package pdftex.def Info: Mess/spek_forw.pdf  used on input line 58.
 (pdftex.def)             Requested size: 250.95587pt x 199.71683pt.
-<Mess/spek_backw.pdf, id=131, 383.4325pt x 305.14pt>
+<Mess/spek_backw.pdf, id=143, 383.4325pt x 305.14pt>
 File: Mess/spek_backw.pdf Graphic file (type pdf)
 <use Mess/spek_backw.pdf>
 Package pdftex.def Info: Mess/spek_backw.pdf  used on input line 64.
@@ -1347,7 +1375,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 79.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 79.
- [7pdfTeX warning (ext4): destination with the same identifier (name{figure.3.2
+ [8pdfTeX warning (ext4): destination with the same identifier (name{figure.3.2
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1362,7 +1390,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 79.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 79.
- [8pdfTeX warning (ext4): destination with the same identifier (name{figure.3.3
+ [9pdfTeX warning (ext4): destination with the same identifier (name{figure.3.3
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1379,7 +1407,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 87.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 87.
-<Mess/cd.pdf, id=172, 483.4863pt x 483.4863pt>
+<Mess/cd.pdf, id=183, 483.4863pt x 483.4863pt>
 File: Mess/cd.pdf Graphic file (type pdf)
 <use Mess/cd.pdf>
 Package pdftex.def Info: Mess/cd.pdf  used on input line 95.
@@ -1394,8 +1422,8 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1.
- [9pdfTeX warning (ext4): destination with the same identifier (name{figure.3.5
-}) has been already used, duplicate ignored
+ [10pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -1415,7 +1443,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1.
- [10
+ [11
 
 ]
 Overfull \hbox (38.54326pt too wide) in paragraph at lines 3--5
@@ -1433,7 +1461,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 26.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 26.
- [11
+ [12
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 26.
@@ -1441,14 +1469,14 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 26.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 26.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 26.
 Package rerunfilecheck Info: File `afm.out' has not changed.
-(rerunfilecheck)             Checksum: 76F48A80EAD4B1BC4F120EAA5BB9DB7D;778.
+(rerunfilecheck)             Checksum: 88EFC1686443265F20A83AC16823F686;851.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 26.
  ) 
 Here is how much of TeX's memory you used:
- 19807 strings out of 494798
- 381075 string characters out of 6176801
- 523114 words of memory out of 5000000
- 22921 multiletter control sequences out of 15000+600000
+ 19816 strings out of 494798
+ 381188 string characters out of 6176801
+ 523192 words of memory out of 5000000
+ 22927 multiletter control sequences out of 15000+600000
  540425 words of font info for 61 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  41i,15n,66p,10375b,765s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1464,10 +1492,10 @@ amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
 cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10
 .pfb>
-Output written on afm.pdf (11 pages, 2203028 bytes).
+Output written on afm.pdf (12 pages, 2299146 bytes).
 PDF statistics:
- 252 PDF objects out of 1000 (max. 8388607)
- 203 compressed objects within 3 object streams
- 36 named destinations out of 1000 (max. 500000)
- 137 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 266 PDF objects out of 1000 (max. 8388607)
+ 215 compressed objects within 3 object streams
+ 39 named destinations out of 1000 (max. 500000)
+ 150 words of extra memory for PDF output out of 10000 (max. 10000000)
 
