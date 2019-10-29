@@ -1,14 +1,74 @@
 \chapter{Vorbereitung}
 
+\section{Theoretische Grundlagen zum AFM}
+       
+ \subsection{Aufbau des Rasterkraftmikroskops}
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.6\textwidth]{Abb/afm.jpg}
+    \caption{Aufbau eines AFM (Quelle: https://de.wikipedia.org/wiki/Rasterkraftmikroskop}
+    \label{afm}
+\end{figure}
+
+Das Mikroskop besteht aus einem Cantilever mit Messspitze, einem Positioniersystem für die z-Richtung, einem Positioniersystem für x- bzw. y-Richtung und einer Detektionseinheit, welche die Amplitudenänderung des Cantilevers misst. 
+Diese Bauteile sollen in den folgenden Kapiteln noch genauer beschrieben werden. 
+
+ \subsection{Der Cantilever}
+ 
+Der Cantilever ist ein schwingungsfähiger Balken, der eine pyramidale Spitze mit einer Dicke von nur wenigen Nanometern besitzt.
+Er wird meist aus $Si_3N_4$ hergestellt und an dessen Ende wird, durch Ätzung, eine abstehende sehr sehr dünne Spitze geformt.
+Seine Resonanzfrequenz befindet sich etwa im kHz bis MHz Bereich.
+Damit lassen sich nun die Abstoßung- bzw. Anziehungskräfte messen.
+Man fährt den Cantilever mithilfe des Rastermechnismusses in nächste Nähe über die Probe.
+Die Spitze wird mittels Schrittmotoren auf einen ungefähren Abstand von einem Mikrometer angenähert und anschließend über piezoelektrische Stoffe weiter ausgerichtet, zu diesen später mehr.
+Diese Vorrichtung führt letztendlich die Spitze über die Probe, in Entfernungen von 10 - 100 Mikrometern in x- und y-Richtung und einer Höhe von unter 10 Miktrometern.
+Gleichzeitig versetzt man den Cantilever in seine Resonanzfrequenz und beobachtet über die Detektionseinheit, wie stark diese Schwingung durch den Abstand zur Probe eingeschränkt wird.
+
+ \subsection{Detektionseinheit}
+ 
+ Das in diesem Versuch verwendete EasyScan DFM Rasterkraftmiskroskop nutzt zur Auslesung der Amplitudenänderung eine optischen Verfahren. 
+ Man verwendet einen Laser, der auf die Rückseite des Cantilevers zeigt. 
+ Dort befindet sich eine polierte Stelle, welche das Licht des Lasers spiegelt. 
+ Bei der Deformation des Cantilevers ändert sich somit die Position des gespiegelten Lichtes.
+ Mithilfe einer Photodiode lassen sich diese minimalen Änderungen sehr gut messen und in Größenordnungen von einzelnen Angstrøm umrechnen.
+ Diese Methode eignet sich hervorragend, denn das Laserlicht wird lediglich durch Erschütterungen gestört.
+ Desshalb baut man diesen Versuch auf einem massiven Steintisch auf und versucht bei der Messung herumgehen zu vermeiden.
+
+\subsection{Rastermechanismus}
+
+Nun muss noch beschrieben werden, wie es sich mit der Rastereinheit verhält.
+Am Anfang fährt man die Probe mittels eines Schrittmotors mechanisch bis auf wenige Mikrometer auf die Probe in z-Richtung heran.
+Anschließend nutzt man den Piezoelektrischen Effekt um feinere Ansteuerungen zu ermöglichen.
+Zumeist verwendet man piezoelektrische Röhrchen aus Blei-Zirkonat-Titanat, denn dieses Material kann sich mithilfe einer angelegten Spannung stark dehnen und zusammenziehen. 
+Typische Rasterbereiche sind 10-100μm in x- und y-Richtung und 2-5μm in z-Richtung.
+Unser Mikroskop basiert auf diesem elektromechanischem Prinzip, also der Deformierung der piezoelektrischen Materialien zur feineren Bewegung des Cantilevers.
+Alternativ lässt sich auch die Probe bewegen.
+
+\subsection{Betriebsmodi}
+
+Es gibt zwei Methoden zur Messung, den statischen Modus und den dynamischen Modus. Beim statischen Modus wird der Cantilever nicht in schwinung versetzt, beim dynamischen hingegend schon. Der statische Modus ist nur von historischer Bedeutung.
+\par
+Statischer Modus:
+\par
+Hierbei bringt man die Probe mit dem Cantilever in Kontakt und misst die direkte Kraft, die der Cantilever beim "zerkratzen" der Probenoberfläche erfährt. 
+Die Kräfte die zwischen dem Cantilever und der Probe auftreten sollen später noch genauer betrachtet werden.
+Die Rastereinheit regelt die z-Position eben so, dass sich Probe und Cantilver ständig berühren.
+Da sich hierbei aber die Probe und der Cantilever schnell abnutzen musste eine Alternative her, der dynamische Modus.
+\par
+Dynamischer Modus:
+\par
+Dazu versetzt man den Cantilever,nach dem Prinzip der harmonischen Schwingung, in seine Resonanzschwingung.
+Die im nächsten Kapitel besprochenen Kräfte ändern nun die Schwingungsfrequenz und Schwinungsamplitude.
+Um einfache Ergebnisse erzielen zu können, kann man einerseits den Cantilever ständig in seine Resonanzfrequenz versetzen und die Änderung der Schwingungsamplitude messen, oder eine Phasenverschiebung der Anregungsfrequenz mit der Antwort des Cantilevers abgleichen.
+Mit diesem eindeutigen Ergebnis lässt sich anschließend die Topologie der Probe rekonstruieren ohne dabei die Probe zu zerstören.
+\par
+In unserem Versuch wird die Methode der Amplitudenänderung verwendet. 
+Die anziehenden und abstoßenden Kräfte deformieren den Cantilever so stark, dass der Weg des Lasers im Angström Bereich umgelenkt wird. 
+Eine Amplitudenänderungen von 70\% , zur Resonanzamplitude, ist maximal. 
+
+
     \section{Kräfte zwischen Atomen}
         \subsection{Van-der-Waals Kräfte}
-
-\begin{figure}[htb]
-    \centering
-    \includegraphics[width=0.6\textwidth]{Abb/vdw.pdf}
-    \caption{Van-der-Waals Kraft zwischen zwei Teilchen}
-    \label{vdw}
-\end{figure}
 
 Die Ladungsverteilung in Atomen ist nicht konstant, sondern unterliegt ständiger 
 Fluktuation. Der Schwerpunkt der negativen Ladungen kann hierbei vom dem der
@@ -39,11 +99,14 @@ Potential gennant.
    \phi (r) \propto \frac{A}{r^6} - \frac{B}{r^{12}}    
 \]
 
+Dabei bezeichnet \phi das Potential und somit die Bindungsenergie, r den Abstand.
+A, B sind Konstanten die stoffspezifisch sind.
+
 \begin{figure}[h!]
     \centering
     \includegraphics[width=0.6\textwidth]{Abb/ljp.jpg}
     \caption{Das Lennard-Jones Potential als Summe der vdW-Wechselwirkung und
-             der Pauli-Abstoßung}
+             der Pauli-Abstoßung, Quelle: https://www.semanticscholar.org/paper/Canonical-dual-theory-applied-to-a-Lennard-Jones-Zhang/9d4274eb39d91a8d13119cceccd52e34b6d6c5e0/figure/0}
     \label{ljp}
 \end{figure}
 
@@ -52,37 +115,9 @@ Potential gennant.
 Neben diesen Kräften können im Allgemeinen auch noch chemische Bindungskräfte, Kontaktkräfte, magnetische und elektrische Wechselwirkungen eine Rolle besitzen.
 Bei unserem Aufbau haben sie jedoch nur geringe Bedeutung.
 
-
-
- \section{Das Atomic-Force-Mikroskop}
  
-\begin{figure}[h!]
-    \centering
-    \includegraphics[width=0.6\textwidth]{Abb/afm.jpg}
-    \caption{Aufbau eines AFM}
-    \label{afm}
-\end{figure}
+\subsection{Berechnung der Amplitude}
  
-Mit dem Rasterkraftmikroskop, lassen sich nun die Abstoßung- bzw. Anziehungskräfte mit dem wichtigsten Bestandteil, dem Cantilever, messen.
-Diesen faährt man in nächster Nähe über die Probe.
-Dabei versetzt man den Cantilever in seine Resonanzfrequenz und beobachtet, wie stark diese Schwingung durch den Abstand zur Probe eingeschränkt wird.
-Diese Amplitudenänderung lässt sich dann zu einem Kräfteprofil auslesen und in die Topographie der Probe umrechnen, aber dazu noch genaueres später.
-Der Cantilever ist ein schwingungsfähiger Balken, der eine pyramidale Spitze mit einer Dicke von nur wenigen Nanometern besitzt.
-Er wird meist aus $Si_3N_4$ hergestellt und an dessen Ende wird, durch Ätzung, eine abstehende sehr sehr dünne Spitze geformt.
-Seine Resonanzfrequenz befindet sich etwa im kHz bis MHz Bereich.
-\par
-Ein anderer wichtiger Bestandteil ist der Rastermechanismus, der die Spitze in die Nähe der Probe befördert. Die Spitze wird mittels Schrittmotoren auf einen ungefähren Abstand von einem Mikrometer angenähert und anschließend über piezoelektrische Stoffe weiter ausgerichtet.
-Diese verändern ihre Größe, je nachdem wie viel Spannung an ihnen angelegt wird. 
-Diese Vorrichtung führt letztendlich die Spitze über die Probe, in Dimensionen von 10 - 100 Mikrometern im Quadrat und einer Höhe von unter 10 Miktrometern.
-\par
-Nun muss nur noch die Amplitudenänderung gemessen werden, dabei wird die Schingungsfrequenz konstant gehalten. 
-Anschließend schießt man mit einem Laser auf eine polierte Rückseite des Cantilevers, welcher nun den Strahl auf eine Photodiode umlenkt. 
-Damit können minimale Auslenkungen direkt druch elektrische Spannungsunterschiede aufgezeichnet werden.
-Die Anziehenden und Abstoßenden Kräfte deformieren den Cantilever so, dass der Weg des Lasers im Angström Bereich umgelenkt wird. 
-Eine Amplitudenänderungen von 70\% , zur Resonanzamplitude, ist maximal. 
-\par
-Neben der Amplitudenmessung, ist es auch möglich die Frequenzänderung zu messen und die Möglichkeit des statischen Messens, also dem direkten Kontakt von Spitze und Probe.
-Beide Methoden waren für die historische Entwicklung der Rasterkraftmikroskopie entscheidend, finden aber heutzutage keine Anwendung mehr.
-
+Formelscheiße di machen Jimmy muss.
 
 
