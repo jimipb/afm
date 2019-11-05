@@ -119,4 +119,23 @@ Bei unserem Aufbau haben sie jedoch nur geringe Bedeutung.
  
 \subsection{Berechnung der Amplitude}
  
-Formelscheiße di machen Jimmy muss.
+Die periodische Bewegung des Cantilevers lässt sich in sehr guter Näherung durch einen getriebenen, gedämpften harmonischen Oszillator beschreiben. Die Formel dazu sieht folgendermaßen aus:
+\[
+    m \ddot{x} + \frac{m \omega_0}{Q} \dot{x} + kx = F_0 \cos(\omega t)
+\]
+Wir verwenden hier m als die punktförmig genäherte Masse des Cantilevers, $\omega_0$ ist dessen Eigenfrequenz mit seiner Güte $Q$ und $k$ beschreibt eine Federkonstante die für die rücktreibende Kraft, also die Oszillation, verantwortlich ist.
+Auf der rechten Seite der Gleichung beschreibt $F_0$ die treibende Kraft, die die Probe und die Vorrichtung auf den Cantilever wirken.
+Wir benutzen den Ansatz:
+\[
+    x(t)=A \cdot e^{iwt}
+\]
+und bekommen schließlich durch Einsetzen folgende Gleichung.
+\[
+    -w^2+w_0^2-iw_0......
+\]
+Löst man diese Gleichung anschließend nach der Amplitude A auf, erhält man folgendes Ergebnis:
+\[
+    A = \frac{F_0}{m \sqrt{ ( \omega_0^2 - \omega^2 )^2 + \left( \frac{\omega 
+        \omega_0}{Q} \right)^2}}
+\]
+Diese Formel ist später für unseren Versuch noch von Bedeutung.
