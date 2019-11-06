@@ -30,9 +30,7 @@ $Q$ bezeichnet hierbei den Gütefaktor des Cantilevers und $\omega_0$ die
 Resonanzfrequenz. 
 \vspace{6pt}\\
 Anders als theoretisch errechnet, ist die gemessene Kurve nicht ganz symmetrisch.
-Dies ist auf die Annäherung des Messkopfes als Massepunkt zurückzuführen. Die 
-theoretische Betrachtung der räumlichen Ausdehnung würde zu höheren Termen führen,
-die hier nicht näher betrachtet werden sollen.
+Dies ist auf die Annäherung des Messkopfes als Massepunkt zurückzuführen.
 
     \section{Überprüfung der Geräteparameter}
 
@@ -40,41 +38,49 @@ Um Entfernungen auf Proben messen zu können, müssen die an den Piezo angelegte
 Spannungen zuverlässig in $x$, $y$ und $z$ Auslenkungen umgerechnet werden können.
 Um diese Kalibrierung zu überprüfen, wird ein Eichgitter mit einer Gitterperiode
 von  $\SI{10}{\mu m}$ verwendet.
-\begin{figure}[hb]
+\begin{figure}
     \centering
-    \includegraphics[width=0.4\textwidth]{Mess/gitter_paint.png}
-    \caption{Amplitudenbild des Eichgitters}
-    \label{gitter}
+    \begin{subfigure}[hb]{0.4\textwidth}
+        \includegraphics[width=\textwidth]{Mess/gitter_paint.png}
+        \caption{Amplitudenbild des Eichgitters; Messung des Gitters eingezeichnet}
+        \label{gitter}
+    \end{subfigure}
+    \begin{subfigure}[hb]{0.4\textwidth}
+        \includegraphics[width=\textwidth]{Mess/profil_gitter.pdf}
+        \caption{Horizontales Profil des Gitters}
+    \end{subfigure}
 \end{figure}
 In Abbildung \ref{gitter} ist eine Teilaufnahme des Gitters zu sehen. Der Abstand die 
-zweier Quadrate beträgt laut Messung $\SI{10,06}{\mu m}$. Dies ist ein gutes 
+zweier Quadrate beträgt laut Messung $\SI{10,7}{\mu m}$. Dies ist ein gutes 
 Ergebnis, weshalb die Default-Werte im weiteren Verlauf des Versuch verwendet 
 werden.
 
     \section{Spektroskopie}
 
 Nun soll die Amplitude der oszillierenden Messspitze bestimmt werden. Hierzu wird
-der Kopf über einer homogenen Oberfläche positioniert und die Änderung der 
+der Scankopf über einer homogenen Oberfläche positioniert und die Änderung der 
 Schwingungsamplitude bei Annäherung an die Probe aufgezeichnet.
 \begin{figure}[hp]
     \centering
     \includegraphics[width=0.6\textwidth]{Mess/spek_forw.pdf}
-    \caption{Änderung der Amplitude bei Annäherung an Probe}
+    \caption{Vorwärts-Spektroskopie}
     \label{spek_forw}
 \end{figure}
 \begin{figure}[hp]
     \centering
     \includegraphics[width=0.6\textwidth]{Mess/spek_backw.pdf}
-    \caption{Änderung der Amplitude bei Entfernung von Probe}
+    \caption{Rückwärts-Spektroskopie}
     \label{spek_backw}
 \end{figure}
 In den Abbildungen \ref{spek_forw} und \ref{spek_backw} sind diese Messungen, erst
 bei Annäherung an die Probe, dann bei Entfernung von der Probe, zu sehen. Die 
 Amplitude ist bei großen Entfernungen nahezu konstant. Bei Kontakt zwischen Spitze
-und Probe befindet sich der untere Umkehrpunkt der Oszillation an der Probenfläche.
+und Probe befindet sich der untere Umkehrpunkt der Oszillation an der 
+Probenoberfläche.
 Somit sinkt die Amplitude um die Änderung der z-Position. Dieser lineare 
 Zusammenhang zwischen Höhe des Cantilevers und der Amplitude soll nun zur 
-Bestimmung der Amplitude benutzt werden.\par
+Bestimmung der Amplitude benutzt werden.
+\vspace{6pt}\\
 Aus den linearen Fits kann die Proportionalitätskonstante für beide Messungen
 bestimmt werden.
 \begin{align*}
@@ -90,28 +96,55 @@ bestimmt werden.
 
     \section{Spur-Abstand einer CD}
 
-Zuletzt soll mithilfe des Mikroskops die Kapazität einer CD bestimmt werden. Hierzu
+Zuletzt wird mithilfe des Mikroskops die Kapazität einer CD bestimmt. Hierzu
 soll die Spurbreite und der Bitabstand bestimmt werden, um die Fläche eines 
 Datenpunktes zu errechnen. Kennt man die Fläche der CD, kann so auf die Kapazität 
 geschlossen werden. \par
-\begin{figure}[h]
+\begin{figure}
     \centering
-    \includegraphics[width=0.4\textwidth]{Mess/cd_paint.png}
-    \caption{Amplitudenbild der Datenseite einer CD}
-    \label{cd}
+    \begin{subfigure}[h]{0.4\textwidth}
+        \includegraphics[width=\textwidth]{Mess/cd_paint.png}
+        \caption{Amplitudenbild der Datenseite einer CD; Messung eingezeichnet}
+        \label{cd}
+    \end{subfigure}
+    \begin{subfigure}[h]{0.4\textwidth}
+        \includegraphics[width=\textwidth]{Mess/profil_cd.pdf}
+        \caption{Horizontales Profil der CD}
+    \end{subfigure}
 \end{figure}
-Aus Abbildung \ref{cd} kann der Spurabstand zu $\SI{1,285}{\mu m}$ und der 
-Bitabstand zu $\SI{1,250}{\mu m}$ bestimmt werden. Die Fläche eines Datenpunktes
-beläuft sich somit auf $A_{Bit} = \SI{1,61}{\mu m^2}$. \par
-Zur Bestimmung der beschreibbaren Fläche muss der Radius des ausgeschnittenen
-Ringes von dem der CD abgezogen werden. 
+Aus Abbildung \ref{cd} kann der Spurabstand zu $\SI{1,29}{\mu m}$ und die
+Pitlänge zu $\SI{1,42}{\mu m}$ bestimmt werden. 
+Die tatsächliche Pitlänge beläuft sich auf die Hälfte der gemessenen, also
+$\SI{0,71}{\mu m}$ (Übergangsbereich). Dies entspricht nun der Länge eines
+Bits auf der CD. Weiter gilt es zu beachten, dass auf einer CD 17 Bits zur
+Speicherung eines Bytes verwendet werden, statt den herkömmlichen 8 auf 
+Festplatten. Innen- und Außenradius sollen als $r_i = \SI{2,2}{cm}$ und 
+$r_a = \SI{5,9}{cm}$ angenommen werden. 
+\vspace{6pt}
+Zur Berechnung der Kapazität wird eine spiralförmige Spur von Bits auf der CD
+angenommen. Verwendet werden die gemessenen Größen Spurabstand $s$ und 
+Bitlänge $l$.
 \[
-    A_{Data} = \pi \cdot \left( \underset{=\SI{58}{mm}}{\underbrace{r_{\text{außen}}^2}}
-    - \underset{=\SI{25}{mm}}{\underbrace{r_{\text{innen}}^2 }} \right)
-    = \SI{8604822000}{\mu m^2}
+    \vec{r}_n = (r_i+s \, n) 
+        \begin{pmatrix}
+            \sin(2\pi n)\\
+            \cos(2\pi n)
+        \end{pmatrix}
 \]
-Die Kapazität errechnet sich somit zu
+Für die Gesamtlänge ergibt sich somit
 \[
-    N = \frac{A_{Data}}{A_{Bit}} \approx \SI{638}{MB}
+    L = \frac{2d}{d} \int_0^N dn | \dot{\vec{r}} | = \int_0^N dn \, s
+        \sqrt{1 + 4 \pi^2 \left( \frac{r_i}{s} + n \right)^2} 
 \]
-Der angegebene Wert ist $\SI{650}{MB}$. Die Abschätzung liefert somit ein gutes Ergebnis.
+N steht hierbei für die Gesamtanzahl der Spuren
+\[
+    N = \frac{r_a - r_i}{s} = 28682
+\]
+Hiermit errechnet sich die gesamte Länge der Spirale zu $\SI{7299}{m}$.
+Für die Kapazität ergibt sich somit
+\[
+    \text{Kapazitaet} = \frac{L}{17 \cdot l \cdot 1024^2} = \SI{577}{MB}
+\]
+Die große Abweichung von $11 \%$ kommt wohl durch das unscharfe Messbild, aus
+dem die tatsächliche Pitlänge und Spurabstand nur schwer bestimmt werden konnten,
+sowie einer tatsächlich niedrigeren Kapazität der CD zustande.
