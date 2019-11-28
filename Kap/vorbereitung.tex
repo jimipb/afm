@@ -52,15 +52,14 @@ Bei unserem Aufbau haben sie jedoch nur geringe Bedeutung.
 
 
 
-\subsection{Berechnung der Amplitude}
+\subsection{Der Cantilever}
 \label{herleitung}
-
 
  
 Der Cantilever ist ein schwingungsfähiger Balken, der eine pyramidale Spitze mit einer Dicke von nur wenigen Nanometern besitzt.
 Er wird meist aus $Si_3N_4$ hergestellt und an dessen Ende wird, durch Ätzung, eine abstehende sehr sehr dünne Spitze geformt.
 Seine Resonanzfrequenz befindet sich etwa im kHz bis MHz Bereich.
-Damit lassen sich nun die Abstoßungs- bzw. Anziehungskräfte messen.
+Ihm wird die größte Bedeutung in diesem Versuch zugesprochen, denn mit ihm lassen sich nun die bereits besprochenen Abstoßungs- bzw. Anziehungskräfte messen.
 Der Cantilever, verhält sich durch seine periodische Bewegung in guter Näherung wie ein getriebener, gedämpfter harmonischer Oszillator. 
 Die Formel dazu sieht folgendermaßen aus:
 \[
@@ -83,35 +82,13 @@ folgendes Ergebnis:
     A = \frac{F_0}{m \sqrt{ ( \omega_0^2 - \omega^2 )^2 + \left( \frac{\omega 
         \omega_0}{Q} \right)^2}}
 \]
-Diese Formel ist später für unseren Versuch noch von Bedeutung.
+
+Die Auswirkungen auf seine Resonanzkurve bei attraktiver und repulsiver Wechselwirkung lassen sich der Abbildung ... entnehmen.
 
 
 
-\section{Betriebsmodi}
-
-\paragraph{Statischer Modus:}
-
-Hierbei bringt man die Probe mit dem Cantilever in Kontakt und misst die direkte Kraft, die der Cantilever beim abrastern der Probenoberfläche erfährt. 
-Die Kräfte die zwischen dem Cantilever und der Probe auftreten, sollen später noch genauer betrachtet werden.
-Die Rastereinheit regelt die z-Position gerade so, dass sich Probe und Cantilver ständig berühren.
-Da sich hierbei aber die Probe und der Cantilever schnell abnutzen, wurde der 
-dynamische Modus als Alternative eingeführt.
-
-\paragraph{Dynamischer Modus:}
-
-Dazu versetzt man den Cantilever, nach dem Prinzip der harmonischen Schwingung, in die Nähe seiner Eigenresonanz.
-Rege man den Cantilever bei seiner Eigenfrequenz an, würde sowohl attraktive als auch repulsive Kraftwechselwirkung zu einer Absenkug von Amplitude oder Frequenz führen. Dies wird in der Graphik ... veranschaulicht.
-Um einfache Ergebnisse erzielen zu können, kann man einerseits den Cantilever ständig nahe seiner Resonanzfrequenz versetzen und die Änderung der Schwingungsamplitude messen, oder eine Phasenverschiebung der Anregungsfrequenz mit der Antwort des Cantilevers abgleichen.
-Mit diesem eindeutigen Ergebnis lässt sich anschließend die Topographie der Probe rekonstruieren.
-\vspace{6pt}\\
-In unserem Versuch wird die Methode der Amplitudenänderung verwendet. 
-Die anziehenden und abstoßenden Kräfte deformieren den Cantilever so stark, dass der Weg des Lasers im Angström Bereich umgelenkt wird. 
-Eine Amplitudenänderungen von 70\%, zur Resonanzamplitude, ist maximal. 
 
 
-Edit über AM und FM   ---------------------------------------------
-
- 
        
  \section{Aufbau des Rasterkraftmikroskops}
 \begin{figure}[h!]
@@ -121,7 +98,7 @@ Edit über AM und FM   ---------------------------------------------
     \label{afm}
 \end{figure}
 
-Das Mikroskop besteht aus einem Cantilever mit Messspitze, einem Positioniersystem für die z-Richtung, einem Positioniersystem für x- bzw. y-Richtung und einer Detektionseinheit, welche die Amplitudenänderung des Cantilevers misst. 
+Das Mikroskop besteht aus einem Cantilever mit Messspitze, dieser wurde bereits erläutert, einem Positioniersystem für die z-Richtung, einem Positioniersystem für x- bzw. y-Richtung und einer Detektionseinheit, welche die Amplitudenänderung des Cantilevers misst. 
 Diese Bauteile sollen in den folgenden Kapiteln noch genauer beschrieben werden.  
  Man fährt den Cantilever mithilfe der Rastereinheit in nächster Nähe über die Probe.
 Die Spitze wird mittels Schrittmotoren auf einen ungefähren Abstand von einem Mikrometer angenähert und anschließend über piezoelektrische Bauelemente weiter ausgerichtet.
@@ -155,8 +132,47 @@ Typische Rasterbereiche sind $10-\SI{100}{\mu m}$ in x- und y-Richtung und $2-\S
 Das hier verwendete Mikroskop basiert auf diesem elektromechanischem Prinzip, also der Deformierung der piezoelektrischen Materialien zur feineren Bewegung des Cantilevers.
 Alternativ lässt sich auch die Probe bewegen.
 
-\subsection{Betriebsmodi}
 
-Es gibt zwei Methoden zur Messung, den statischen Modus und den dynamischen Modus. Beim statischen Modus wird der Cantilever nicht in Schwingung versetzt, beim dynamischen hingegend schon.
+\section{Betriebsmodi}
 
+
+Es gibt zwei Methoden um die Kräfte der Probe auf den Cantilever wirken zu lassen.
+Es gibt den statischen Modus und den dynamischen Modus. 
+Beim statischen Modus wird der Cantilever nicht in Schwingung versetzt und in Ruhe gehalten.
+Der dynamische Modus arbeitet hingegen mit einem schwingenden Cantilever.
+Der statische Modus ist leichter umzusetzen und war desshalb zu Beginn der Rasterkraftmikroskopie die vorherrschende Technik, heutzutage verwendet man eher die dynamischen Modi, welche keinen physischen Kontakt mit der Probe haben.
+
+
+\subsection{Statischer Modus:}
+
+Bei dem statischen Betriebsmodus bringt man die Messspitze des Cantilevers in direkten Kontakt mir der Probe.
+Dadurch verbiegt sich dieser entsprechend attraktiv und repulsiv, was man wie schon erläutert, in eine Messreihe umwandeln kann.
+Der Rastermechnismus erhält diese Information ebenso, sodass er so nachgeregelt werden kann, dass er die Probe eben genau berührt.
+Man kann allerdings auch die Höhe des Cantilevers über der Probe konstant halten und die Wechselwirkung mit der Probe aufzeichnen.
+Der statische Modus hat jedoch Nachteile.
+Der Cantilever und die Probe werden dabei verändert, oder sogar zerstört.
+Auch das Nachregeln der Höhe, kann bei großen Bergen und Tälern die Spitze direkt in die Probe "rammen".
+Lässt man den Cantilever auf konstanter Höhe, können die Wechselwirkungen zur Probe zu gering sein, um sie messen zu können.
+
+Weil sich bei diesem Modus die Bauteile sehr stark abnutzen entwickelte man eine Alternative, den dynamischen Modus.
+
+\subsection{Dynamischer Modus:}
+
+       \paragraph{Amplitudenmoduliertes Rasterkraftmikroskop}
+ 
+ 
+       \paragraph{Frequenzmoduliertes Rasterkraftmikroskop}
+Dazu versetzt man den Cantilever, nach dem Prinzip der harmonischen Schwingung, in die Nähe seiner Eigenresonanz.
+Rege man den Cantilever bei seiner Eigenfrequenz an, würde sowohl attraktive als auch repulsive Kraftwechselwirkung zu einer Absenkug von Amplitude oder Frequenz führen. Dies wird in der Graphik ... veranschaulicht.
+Um einfache Ergebnisse erzielen zu können, kann man einerseits den Cantilever ständig nahe seiner Resonanzfrequenz versetzen und die Änderung der Schwingungsamplitude messen, oder eine Phasenverschiebung der Anregungsfrequenz mit der Antwort des Cantilevers abgleichen.
+Mit diesem eindeutigen Ergebnis lässt sich anschließend die Topographie der Probe rekonstruieren.
+\vspace{6pt}\\
+In unserem Versuch wird die Methode der Amplitudenänderung verwendet. 
+Die anziehenden und abstoßenden Kräfte deformieren den Cantilever so stark, dass der Weg des Lasers im Angström Bereich umgelenkt wird. 
+Eine Amplitudenänderungen von 70\%, zur Resonanzamplitude, ist maximal. 
+
+
+Edit über AM und FM   ---------------------------------------------
+
+ 
 
