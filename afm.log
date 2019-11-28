@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.9.5)  14 NOV 2019 14:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.9.5)  28 NOV 2019 18:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1259,93 +1259,101 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 3.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 5.
+(babel)             in language  on input line 6.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 5.
-<Abb/afm.jpg, id=121, 1204.5pt x 1168.365pt>
-File: Abb/afm.jpg Graphic file (type jpg)
-<use Abb/afm.jpg>
-Package pdftex.def Info: Abb/afm.jpg  used on input line 8.
-(pdftex.def)             Requested size: 250.95587pt x 243.42065pt.
+(babel)             in language  on input line 6.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 16.
+(babel)             in language  on input line 7.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 16.
+(babel)             in language  on input line 7.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 26.
+(babel)             in language  on input line 21.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 26.
+(babel)             in language  on input line 21.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 26.
+(babel)             in language  on input line 30.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 26.
-[4
-
- <./Abb/afm.jpg>]
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 27.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 27.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 36.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 36.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 46.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 46.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 58.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 58.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 58.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 58.
- [5]
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 70.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 70.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 71.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 71.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 85.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 85.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 94.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 94.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 101.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 101.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 101.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 101.
- [6]
-<Abb/ljp.jpg, id=140, 1435.51042pt x 1049.0561pt>
+(babel)             in language  on input line 30.
+<Abb/ljp.jpg, id=121, 1435.51042pt x 1049.0561pt>
 File: Abb/ljp.jpg Graphic file (type jpg)
 <use Abb/ljp.jpg>
-Package pdftex.def Info: Abb/ljp.jpg  used on input line 108.
+Package pdftex.def Info: Abb/ljp.jpg  used on input line 44.
 (pdftex.def)             Requested size: 250.95587pt x 183.39548pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 118.
+(babel)             in language  on input line 55.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 118.
+(babel)             in language  on input line 55.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 135.
+(babel)             in language  on input line 65.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 135.
+(babel)             in language  on input line 65.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 135.
+(babel)             in language  on input line 65.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 135.
- [7 <./Abb/ljp.jpg>]) (./Kap/durchfuehrung.tex
+(babel)             in language  on input line 65.
+[4
+
+]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 84.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 84.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 84.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 84.
+ [5 <./Abb/ljp.jpg>]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 93.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 93.
+<Abb/afm.jpg, id=136, 1204.5pt x 1168.365pt>
+File: Abb/afm.jpg Graphic file (type jpg)
+<use Abb/afm.jpg>
+Package pdftex.def Info: Abb/afm.jpg  used on input line 96.
+(pdftex.def)             Requested size: 250.95587pt x 243.42065pt.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 108.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 108.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 116.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 116.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 116.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 116.
+ [6 <./Abb/afm.jpg>]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 117.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 117.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 136.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 136.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 146.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 146.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 156.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 156.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 156.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 156.
+ [7]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 159.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 159.
+) (./Kap/durchfuehrung.tex
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining ngerman shorthand "~
@@ -1365,7 +1373,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 3.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 3.
-<Mess/freqsweep_2.pdf, id=155, 372.39125pt x 305.14pt>
+<Mess/freqsweep_2.pdf, id=157, 372.39125pt x 305.14pt>
 File: Mess/freqsweep_2.pdf Graphic file (type pdf)
 <use Mess/freqsweep_2.pdf>
 Package pdftex.def Info: Mess/freqsweep_2.pdf  used on input line 11.
@@ -1385,12 +1393,12 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 35.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 35.
-<Mess/gitter_paint.png, id=172, 456.20438pt x 405.76593pt>
+<Mess/gitter_paint.png, id=174, 456.20438pt x 405.76593pt>
 File: Mess/gitter_paint.png Graphic file (type png)
 <use Mess/gitter_paint.png>
 Package pdftex.def Info: Mess/gitter_paint.png  used on input line 44.
 (pdftex.def)             Requested size: 167.29967pt x 148.79987pt.
-<Mess/profil_gitter.pdf, id=173, 154.4169pt x 154.4169pt>
+<Mess/profil_gitter.pdf, id=175, 154.4169pt x 154.4169pt>
 File: Mess/profil_gitter.pdf Graphic file (type pdf)
 <use Mess/profil_gitter.pdf>
 Package pdftex.def Info: Mess/profil_gitter.pdf  used on input line 49.
@@ -1399,12 +1407,12 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 59.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 59.
-<Mess/spek_forw.pdf, id=175, 383.4325pt x 305.14pt>
+<Mess/spek_forw.pdf, id=177, 383.4325pt x 305.14pt>
 File: Mess/spek_forw.pdf Graphic file (type pdf)
 <use Mess/spek_forw.pdf>
 Package pdftex.def Info: Mess/spek_forw.pdf  used on input line 66.
 (pdftex.def)             Requested size: 250.95587pt x 199.71683pt.
-<Mess/spek_backw.pdf, id=176, 383.4325pt x 305.14pt>
+<Mess/spek_backw.pdf, id=178, 383.4325pt x 305.14pt>
 File: Mess/spek_backw.pdf Graphic file (type pdf)
 <use Mess/spek_backw.pdf>
 Package pdftex.def Info: Mess/spek_backw.pdf  used on input line 72.
@@ -1431,7 +1439,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 98.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 98.
-<Mess/cd_paint.png, id=264, 453.19313pt x 402.75468pt>
+<Mess/cd_paint.png, id=266, 453.19313pt x 402.75468pt>
 File: Mess/cd_paint.png Graphic file (type png)
 <use Mess/cd_paint.png>
 Package pdftex.def Info: Mess/cd_paint.png  used on input line 106.
@@ -1505,34 +1513,47 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 27.
  (./afm.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 27.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 27.
-Package rerunfilecheck Info: File `afm.out' has not changed.
-(rerunfilecheck)             Checksum: DACF08B062818219811DAB8403A6DE0E;1289.
+
+
+Package rerunfilecheck Warning: File `afm.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `afm.out':
+(rerunfilecheck)             Before: DACF08B062818219811DAB8403A6DE0E;1289
+(rerunfilecheck)             After:  1ACDCD6B2C205A433D4C840E5FDBF381;1354.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 27.
  ) 
 Here is how much of TeX's memory you used:
- 20888 strings out of 494798
- 401056 string characters out of 6176801
+ 20897 strings out of 494798
+ 401181 string characters out of 6176801
  545053 words of memory out of 5000000
- 23978 multiletter control sequences out of 15000+600000
+ 23985 multiletter control sequences out of 15000+600000
  540425 words of font info for 61 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  48i,14n,66p,10375b,765s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on afm.pdf (15 pages, 809266 bytes).
+pdfTeX warning (dest): name{subsection.2.2.3} has been referenced but does no
+t exist, replaced by a fixed one
+
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+sy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on afm.pdf (15 pages, 810716 bytes).
 PDF statistics:
- 358 PDF objects out of 1000 (max. 8388607)
- 290 compressed objects within 3 object streams
- 51 named destinations out of 1000 (max. 500000)
+ 360 PDF objects out of 1000 (max. 8388607)
+ 292 compressed objects within 3 object streams
+ 53 named destinations out of 1000 (max. 500000)
  198 words of extra memory for PDF output out of 10000 (max. 10000000)
 
