@@ -4,7 +4,7 @@
        
        
  \subsection{Kräfte zwischen Atomen}
-        \subsection{Van-der-Waals Kräfte}
+        \subsubsection{Van-der-Waals Kräfte}
 
 Die Ladungsverteilung in Atomen ist nicht konstant, sondern unterliegt ständiger 
 Fluktuation. Der Schwerpunkt der negativen Ladungen kann hierbei vom dem der
@@ -18,7 +18,7 @@ Als Folge dessen synchronisieren sich die Ladungsänderungen der beiden Atome. E
 schwache positive Anziehung ist die Folge. Diese ist proportional zu $\displaystyle
 \frac{-1}{r^6}$.
 
-        \subsection{Pauli-Abstoßung}
+        \subsubsection{Pauli-Abstoßung}
 
 Nähern sich die Atome weiter an, so kommt es zu einem Überlappen der 
 Elektronenorbitale. Das Pauli-Verbot verhindert hierbei, dass zwei Elektronen den
@@ -27,7 +27,7 @@ höheren Zustand gezwungen. \\
 So führt eine Orbitalüberlagerung zu einer repulsiven Wechselwirkung. Die Kraft
 ist proportional zu $\displaystyle \frac{1}{r^{12}}$.
 
-        \subsection{Lennard-Jones Potential}
+        \subsubsection{Lennard-Jones Potential}
 
 Bei sehr kleinen Abständen dominiert die Pauli-Abstoßung, bei größeren die 
 van-der-Waals Kräfte. Die Summe aus beiden Potentialen wird Lennard-Jones 
@@ -85,7 +85,9 @@ folgendes Ergebnis:
 
 Die Auswirkungen auf seine Resonanzkurve bei attraktiver und repulsiver Wechselwirkung lassen sich der Abbildung ... entnehmen.
 
+Abbildung ...
 
+--------------------------------------------------------------------------------------------
 
 
 
@@ -98,11 +100,9 @@ Die Auswirkungen auf seine Resonanzkurve bei attraktiver und repulsiver Wechselw
     \label{afm}
 \end{figure}
 
-Das Mikroskop besteht aus einem Cantilever mit Messspitze, dieser wurde bereits erläutert, einem Positioniersystem für die z-Richtung, einem Positioniersystem für x- bzw. y-Richtung und einer Detektionseinheit, welche die Amplitudenänderung des Cantilevers misst. 
-Diese Bauteile sollen in den folgenden Kapiteln noch genauer beschrieben werden.  
- Man fährt den Cantilever mithilfe der Rastereinheit in nächster Nähe über die Probe.
-Die Spitze wird mittels Schrittmotoren auf einen ungefähren Abstand von einem Mikrometer angenähert und anschließend über piezoelektrische Bauelemente weiter ausgerichtet.
-Diese Vorrichtung führt letztendlich die Spitze über die Probe, in Entfernungen von 10 - 100 Mikrometern in x- und y-Richtung und einer Höhe von unter 10 Mikrometern.
+Das Mikroskop besteht aus einem Cantilever mit Messspitze, einem Positioniersystem für die z-Richtung, einem Positioniersystem für x- bzw. y-Richtung und einer Detektionseinheit, welche die Amplitudenänderung des Cantilevers misst.  
+Die Spitze des Cantilevers wird mittels Schrittmotoren auf einen ungefähren Abstand von einem Mikrometer angenähert und anschließend über piezoelektrische Bauelemente weiter ausgerichtet.
+Damit lääst sich letztendlich die Spitze über der Probe, in Entfernungen von 10 - 100 Mikrometern in x- und y-Richtung und einer Höhe von unter 10 Mikrometern, ausrichten.
 Gleichzeitig versetzt man den Cantilever nahe seiner Resonanzfrequenz und beobachtet über die Detektionseinheit, wie stark diese Schwingung durch den Abstand zur Probe eingeschränkt wird.
 
  \subsection{Detektionseinheit}
@@ -120,14 +120,19 @@ Nun muss noch beschrieben werden, wie es sich mit der Rastereinheit verhält.
 Am Anfang fährt man die Probe mittels eines Schrittmotors mechanisch bis auf wenige Mikrometer auf die Probe in z-Richtung heran.
 Anschließend nutzt man den piezoelektrischen Effekt um eine feinere Ansteuerungen zu ermöglichen.
 Zumeist verwendet man piezoelektrische Röhrchen aus Blei-Zirkonat-Titanat, denn dieses Material kann sich mithilfe einer angelegten Spannung stark dehnen und zusammenziehen. 
+Die Spannung am piezoelektrischen Röhrchen wird über die Rückkopplung mit dem Cantilever gesteuert. 
 Um den piezoelektrischen Effekt und sein Inverses korrekt verstehen zu können, muss man auf atomare Ebene dieser Moleküle nach den Ladungsverschieben schauen.
+Bei diesem Effekt geht es konkret darum, dass man bei äußerlicher Kraftauswirkung auf bestimmte Kristalle, eine Spannung innerhalb dieser Kristalle messen kann.
+Die Ursache hierfür ist, dass durch die mechanische Krafteinwirkung die Ladungsverteilung innerhalb von Kristall-Elementarzellen verschoben wird.
+Dadurch ergibt sich ein Dipol, welcher eine elektrische Kraft resultiert.
+Für besseres Verständnis ist dies zu sehen in der Abbildung ... .
 
 
+Abbildung
+-------------------------------------------------------------------------------------------------------------------
 
-edit soon ------------------------------------- (piezo)
-
-
-
+Kehrt man dieses Prinzip nun um (inverser piezoelektrischer Effekt), also legt man Spannung an solch einer Kristallstruktur an, lassen sich nun mechanische Verfromungen, mit diesen Kristallen, über elektrische Kräfte erzeugen.
+Man nutzt diesen Effekt bei der Rastereinheit, da sich so sehr exakte und minimale Änderungen in x-, y- und z-Richtung erzeugen lassen.
 Typische Rasterbereiche sind $10-\SI{100}{\mu m}$ in x- und y-Richtung und $2-\SI{5}{\mu m}$ in z-Richtung.
 Das hier verwendete Mikroskop basiert auf diesem elektromechanischem Prinzip, also der Deformierung der piezoelektrischen Materialien zur feineren Bewegung des Cantilevers.
 Alternativ lässt sich auch die Probe bewegen.
@@ -146,7 +151,7 @@ Der statische Modus ist leichter umzusetzen und war desshalb zu Beginn der Raste
 \subsection{Statischer Modus:}
 
 Bei dem statischen Betriebsmodus bringt man die Messspitze des Cantilevers in direkten Kontakt mir der Probe.
-Dadurch verbiegt sich dieser entsprechend attraktiv und repulsiv, was man wie schon erläutert, in eine Messreihe umwandeln kann.
+Dadurch verbiegt sich dieser entsprechend attraktiv und repulsiv, was man, wie schon erläutert, in eine Messreihe umwandeln kann.
 Der Rastermechnismus erhält diese Information ebenso, sodass er so nachgeregelt werden kann, dass er die Probe eben genau berührt.
 Man kann allerdings auch die Höhe des Cantilevers über der Probe konstant halten und die Wechselwirkung mit der Probe aufzeichnen.
 Der statische Modus hat jedoch Nachteile.
@@ -159,20 +164,23 @@ Weil sich bei diesem Modus die Bauteile sehr stark abnutzen entwickelte man eine
 \subsection{Dynamischer Modus:}
 
        \paragraph{Amplitudenmoduliertes Rasterkraftmikroskop}
- 
- 
-       \paragraph{Frequenzmoduliertes Rasterkraftmikroskop}
-Dazu versetzt man den Cantilever, nach dem Prinzip der harmonischen Schwingung, in die Nähe seiner Eigenresonanz.
+
+Hier versetzt man den Cantilever, nach dem Prinzip der harmonischen Schwingung, nahe seiner Eigenfrequenz, sodass abstoßende Kräfte die Resonanzfrequenz erhöhen und anziehende Kräfte die Resonanzfrequenz verringern. 
 Rege man den Cantilever bei seiner Eigenfrequenz an, würde sowohl attraktive als auch repulsive Kraftwechselwirkung zu einer Absenkug von Amplitude oder Frequenz führen. Dies wird in der Graphik ... veranschaulicht.
-Um einfache Ergebnisse erzielen zu können, kann man einerseits den Cantilever ständig nahe seiner Resonanzfrequenz versetzen und die Änderung der Schwingungsamplitude messen, oder eine Phasenverschiebung der Anregungsfrequenz mit der Antwort des Cantilevers abgleichen.
-Mit diesem eindeutigen Ergebnis lässt sich anschließend die Topographie der Probe rekonstruieren.
-\vspace{6pt}\\
-In unserem Versuch wird die Methode der Amplitudenänderung verwendet. 
+Mit der Anregung nahe der Eigenfrequenz, sorgt diese Frequenzänderung nun auch für eine Amplitudenänderung.
+Der Cantilever wird über seine z-Koordinate wieder auf seine ursprüngliche Amplitude gebracht, die Amplitudenänderung gibt aber die Kräfte, welche die Probe auf den Cantilever wirkt, eindeutig wieder.
+Diese Methode entwickelte man, denn sie ist ein sehr gutes Mittel zwischen Auflösung und Aufwand und war nun nach dem statischen Modus so weit, atomare Strukturen erfassen zu können.
+
+ In unserem Versuch wird die Methode der Amplitudenänderung verwendet. 
 Die anziehenden und abstoßenden Kräfte deformieren den Cantilever so stark, dass der Weg des Lasers im Angström Bereich umgelenkt wird. 
 Eine Amplitudenänderungen von 70\%, zur Resonanzamplitude, ist maximal. 
 
-
-Edit über AM und FM   ---------------------------------------------
-
+       \paragraph{Frequenzmoduliertes Rasterkraftmikroskop}
+       
+Versetzt man den Cantilever in die Nähe seiner Eigenresonanz, konnte man beobachten, dass er neben einer Frequenzänderung auch eine Phasenverschiebung seiner harmonischen Schwingung erfährt.
+Bei dem frequenzmodulierten Modus wird nun die Frequenzänderung, mithilfe der Phasenverschiebung, vermieden, also konstant nahe seiner Eigenfrequenz, gehalten.
+Diese Phasenverschiebung beinhaltet sogar alle notwenigen Informationen für die Nachregelung in z-Richtung und die Auswertung der Probenbeschaffenheit.
+Diese Methode machte die Auflösung der Rasterkraftmikroskopie noch um einiges besser, jedoch nicht effizienter.
+Ohne Kontakt mit der Probe, kann man damit also auf atomarer Ebene die Beschaffenheit, auch von allen nicht ferromagnetischen Stoffen, messen.
  
 
