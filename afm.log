@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.11.30)  3 DEC 2019 10:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.11.30)  5 DEC 2019 15:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -851,28 +851,25 @@ File: Abb/freqsweep.png Graphic file (type png)
 <use Abb/freqsweep.png>
 Package pdftex.def Info: Abb/freqsweep.png  used on input line 90.
 (pdftex.def)             Requested size: 250.95587pt x 128.70213pt.
-<Abb/afm.jpg, id=80, 1204.5pt x 1168.365pt>
+ [6 <./Abb/freqsweep.png>]
+<Abb/afm.jpg, id=87, 1204.5pt x 1168.365pt>
 File: Abb/afm.jpg Graphic file (type jpg)
 <use Abb/afm.jpg>
-Package pdftex.def Info: Abb/afm.jpg  used on input line 99.
+Package pdftex.def Info: Abb/afm.jpg  used on input line 152.
 (pdftex.def)             Requested size: 250.95587pt x 243.42065pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[6 <./Abb/freqsweep.png>]
-<Abb/piezo.jpg, id=88, 451.6875pt x 338.76563pt>
+[7] [8 <./Abb/afm.jpg>]
+<Abb/piezo.jpg, id=101, 451.6875pt x 338.76563pt>
 File: Abb/piezo.jpg Graphic file (type jpg)
 <use Abb/piezo.jpg>
-Package pdftex.def Info: Abb/piezo.jpg  used on input line 133.
+Package pdftex.def Info: Abb/piezo.jpg  used on input line 186.
 (pdftex.def)             Requested size: 250.95587pt x 188.21873pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[7 <./Abb/afm.jpg>] [8 <./Abb/piezo.jpg>]) (./Kap/durchfuehrung.tex [9]
+) (./Kap/durchfuehrung.tex [9 <./Abb/piezo.jpg>]
 chapter 3.
-<Mess/freqsweep_2.pdf, id=106, 372.39125pt x 305.14pt>
+<Mess/freqsweep_2.pdf, id=108, 372.39125pt x 305.14pt>
 File: Mess/freqsweep_2.pdf Graphic file (type pdf)
 <use Mess/freqsweep_2.pdf>
 Package pdftex.def Info: Mess/freqsweep_2.pdf  used on input line 11.
@@ -880,29 +877,29 @@ Package pdftex.def Info: Mess/freqsweep_2.pdf  used on input line 11.
 [10
 
  <./Mess/freqsweep_2.pdf>]
-<Mess/gitter_paint.png, id=123, 456.20438pt x 405.76593pt>
+<Mess/gitter_paint.png, id=125, 456.20438pt x 405.76593pt>
 File: Mess/gitter_paint.png Graphic file (type png)
 <use Mess/gitter_paint.png>
 Package pdftex.def Info: Mess/gitter_paint.png  used on input line 44.
 (pdftex.def)             Requested size: 167.29967pt x 148.79987pt.
-<Mess/profil_gitter.pdf, id=124, 154.4169pt x 154.4169pt>
+<Mess/profil_gitter.pdf, id=126, 154.4169pt x 154.4169pt>
 File: Mess/profil_gitter.pdf Graphic file (type pdf)
 <use Mess/profil_gitter.pdf>
 Package pdftex.def Info: Mess/profil_gitter.pdf  used on input line 49.
 (pdftex.def)             Requested size: 167.29967pt x 167.30968pt.
-<Mess/spek_forw.pdf, id=126, 383.4325pt x 305.14pt>
+<Mess/spek_forw.pdf, id=128, 383.4325pt x 305.14pt>
 File: Mess/spek_forw.pdf Graphic file (type pdf)
 <use Mess/spek_forw.pdf>
 Package pdftex.def Info: Mess/spek_forw.pdf  used on input line 66.
 (pdftex.def)             Requested size: 250.95587pt x 199.71683pt.
-<Mess/spek_backw.pdf, id=127, 383.4325pt x 305.14pt>
+<Mess/spek_backw.pdf, id=129, 383.4325pt x 305.14pt>
 File: Mess/spek_backw.pdf Graphic file (type pdf)
 <use Mess/spek_backw.pdf>
 Package pdftex.def Info: Mess/spek_backw.pdf  used on input line 72.
 (pdftex.def)             Requested size: 250.95587pt x 199.71683pt.
  [11 <./Mess/gitter_paint.png> <./Mess/profil_gitter.pdf>] [12 <./Mess/spek_for
 w.pdf> <./Mess/spek_backw.pdf>]
-<Mess/cd_paint.png, id=216, 453.19313pt x 402.75468pt>
+<Mess/cd_paint.png, id=218, 453.19313pt x 402.75468pt>
 File: Mess/cd_paint.png Graphic file (type png)
 <use Mess/cd_paint.png>
 Package pdftex.def Info: Mess/cd_paint.png  used on input line 106.
@@ -946,32 +943,39 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 27.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 27.
 Package rerunfilecheck Info: File `afm.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 27.
  ) 
 Here is how much of TeX's memory you used:
- 22163 strings out of 494435
- 419616 string characters out of 6173462
- 589720 words of memory out of 5000000
+ 22164 strings out of 494435
+ 419632 string characters out of 6173462
+ 590720 words of memory out of 5000000
  25596 multiletter control sequences out of 15000+600000
  542491 words of font info for 63 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  48i,14n,71p,9102b,771s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on afm.pdf (16 pages, 895150 bytes).
+pdfTeX warning (dest): name{figure.caption.8} has been referenced but does no
+t exist, replaced by a fixed one
+
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+sy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on afm.pdf (16 pages, 895063 bytes).
 PDF statistics:
- 369 PDF objects out of 1000 (max. 8388607)
- 298 compressed objects within 3 object streams
- 58 named destinations out of 1000 (max. 500000)
+ 371 PDF objects out of 1000 (max. 8388607)
+ 300 compressed objects within 3 object streams
+ 59 named destinations out of 1000 (max. 500000)
  192 words of extra memory for PDF output out of 10000 (max. 10000000)
 
