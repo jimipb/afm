@@ -7,14 +7,14 @@
 \contentsline {subsubsection}{\nonumberline Pauli-Absto\IeC {\ss }ung}{4}{section*.3}% 
 \contentsline {subsubsection}{\nonumberline Lennard-Jones Potential}{4}{section*.4}% 
 \contentsline {subsection}{\numberline {2.1.2}Der Cantilever}{5}{subsection.2.1.2}% 
-\contentsline {section}{\numberline {2.2}Aufbau des Rasterkraftmikroskops}{6}{section.2.2}% 
-\contentsline {subsection}{\numberline {2.2.1}Detektionseinheit}{6}{subsection.2.2.1}% 
-\contentsline {subsection}{\numberline {2.2.2}Rastermechanismus}{7}{subsection.2.2.2}% 
-\contentsline {section}{\numberline {2.3}Betriebsmodi}{8}{section.2.3}% 
-\contentsline {subsection}{\numberline {2.3.1}Statischer Modus:}{8}{subsection.2.3.1}% 
-\contentsline {subsection}{\numberline {2.3.2}Dynamischer Modus:}{9}{subsection.2.3.2}% 
-\contentsline {paragraph}{\nonumberline Amplitudenmoduliertes Rasterkraftmikroskop}{9}{section*.9}% 
-\contentsline {paragraph}{\nonumberline Frequenzmoduliertes Rasterkraftmikroskop}{9}{section*.10}% 
+\contentsline {section}{\numberline {2.2}Betriebsmodi}{6}{section.2.2}% 
+\contentsline {subsection}{\numberline {2.2.1}Statischer Modus:}{6}{subsection.2.2.1}% 
+\contentsline {subsection}{\numberline {2.2.2}Dynamischer Modus:}{7}{subsection.2.2.2}% 
+\contentsline {paragraph}{\nonumberline Amplitudenmoduliertes Rasterkraftmikroskop}{7}{section*.7}% 
+\contentsline {paragraph}{\nonumberline Frequenzmoduliertes Rasterkraftmikroskop}{7}{section*.8}% 
+\contentsline {section}{\numberline {2.3}Aufbau des Rasterkraftmikroskops}{7}{section.2.3}% 
+\contentsline {subsection}{\numberline {2.3.1}Detektionseinheit}{8}{subsection.2.3.1}% 
+\contentsline {subsection}{\numberline {2.3.2}Rastermechanismus}{8}{subsection.2.3.2}% 
 \contentsline {chapter}{\numberline {3}Versuchsdurchf\IeC {\"u}hrung}{10}{chapter.3}% 
 \contentsline {section}{\numberline {3.1}Charakterisierung des Cantilevers}{10}{section.3.1}% 
 \contentsline {section}{\numberline {3.2}\IeC {\"U}berpr\IeC {\"u}fung der Ger\IeC {\"a}teparameter}{11}{section.3.2}% 
