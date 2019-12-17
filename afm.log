@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.9.5)  6 DEC 2019 10:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.9.5)  17 DEC 2019 14:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1180,7 +1180,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 \c__siunitx_mathtt_int=\count298
  (./titlepage.tex
-</home/jonas/logo_ur/ur-logo-bildmarke-grau.png, id=76, 277.035pt x 191.71625pt
+</home/jonas/logo_ur/ur-logo-bildmarke-grau.png, id=72, 277.035pt x 191.71625pt
 >
 File: /home/jonas/logo_ur/ur-logo-bildmarke-grau.png Graphic file (type png)
 <use /home/jonas/logo_ur/ur-logo-bildmarke-grau.png>
@@ -1262,7 +1262,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 7.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 7.
-<Abb/ljp.jpg, id=116, 1435.51042pt x 1049.0561pt>
+<Abb/ljp.jpg, id=111, 1435.51042pt x 1049.0561pt>
 File: Abb/ljp.jpg Graphic file (type jpg)
 <use Abb/ljp.jpg>
 Package pdftex.def Info: Abb/ljp.jpg  used on input line 45.
@@ -1294,80 +1294,120 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 85.
  [5 <./Abb/ljp.jpg>]
-<Abb/freqsweep.png, id=135, 663.47874pt x 340.27126pt>
+<Abb/freqsweep.png, id=130, 663.47874pt x 340.27126pt>
 File: Abb/freqsweep.png Graphic file (type png)
 <use Abb/freqsweep.png>
 Package pdftex.def Info: Abb/freqsweep.png  used on input line 91.
 (pdftex.def)             Requested size: 250.95587pt x 128.70213pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+[][]|\OT1/cmr/m/n/10.95 Re-so-nanz-kur-ve des Can-ti-le-vers [https://vetsuisse
+.com/vet-
+ []
+
+
+Overfull \hbox (82.40347pt too wide) in paragraph at lines 92--92
+\OT1/cmr/m/n/10.95 iml/lernmodule/htmls/slide.html?radiosurfvet|radgeneral|sono
+graphy|sonobasics|2]| 
+ []
+
+
+Overfull \hbox (148.3469pt too wide) in paragraph at lines 96--97
+[]\OT1/cmr/m/n/10.95 [https://vetsuisse.com/vet-iml/lernmodule/htmls/slide.html
+?radiosurfvet|radgeneral|sonography|sonobasics|2] 
+ []
+
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 98.
+(babel)             in language  on input line 99.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 98.
+(babel)             in language  on input line 99.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 109.
+(babel)             in language  on input line 110.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 109.
+(babel)             in language  on input line 110.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 122.
+(babel)             in language  on input line 121.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 122.
+(babel)             in language  on input line 121.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 122.
+(babel)             in language  on input line 121.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 122.
- [6 <./Abb/freqsweep.png>]
+(babel)             in language  on input line 121.
+[6 <./Abb/freqsweep.png>]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 122.
+(babel)             in language  on input line 123.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 122.
+(babel)             in language  on input line 123.
+
+Overfull \hbox (93.66496pt too wide) in paragraph at lines 132--135
+\OT1/cmr/m/n/10.95 um bis zu 30% ver-rin-gert wird. (http://www.physik.uni-rege
+nsburg.de/studium/praktika/f/fpAFM2010.pdf,
+ []
+
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 144.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 144.
-<Abb/afm.jpg, id=143, 1204.5pt x 1168.365pt>
+<Abb/afm.jpg, id=138, 1204.5pt x 1168.365pt>
 File: Abb/afm.jpg Graphic file (type jpg)
 <use Abb/afm.jpg>
 Package pdftex.def Info: Abb/afm.jpg  used on input line 147.
 (pdftex.def)             Requested size: 250.95587pt x 243.42065pt.
 
+Overfull \hbox (4.29219pt too wide) in paragraph at lines 148--148
+[][]|\OT1/cmr/m/n/10.95 Auf-bau ei-nes AFM [htt-ps://de.wikipedia.org/wiki/Rast
+erkraftmikroskop]| 
+ []
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 156.
+(babel)             in language  on input line 157.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 156.
+(babel)             in language  on input line 157.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 164.
+(babel)             in language  on input line 168.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 164.
+(babel)             in language  on input line 168.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 164.
+(babel)             in language  on input line 168.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 164.
+(babel)             in language  on input line 168.
 [7]
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 165.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 165.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 176.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 176.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 176.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 176.
- [8 <./Abb/afm.jpg>]
-<Abb/piezo.jpg, id=158, 451.6875pt x 338.76563pt>
+<Abb/piezo.jpg, id=147, 451.6875pt x 338.76563pt>
 File: Abb/piezo.jpg Graphic file (type jpg)
 <use Abb/piezo.jpg>
-Package pdftex.def Info: Abb/piezo.jpg  used on input line 179.
+Package pdftex.def Info: Abb/piezo.jpg  used on input line 171.
 (pdftex.def)             Requested size: 250.95587pt x 188.21873pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 172--172
+[][]|\OT1/cmr/m/n/10.95 Pie-zo-elek-tri-scher Ef-fekt [https://vetsuisse.com/ve
+t-
+ []
+
+
+Overfull \hbox (82.40347pt too wide) in paragraph at lines 172--172
+\OT1/cmr/m/n/10.95 iml/lernmodule/htmls/slide.html?radiosurfvet|radgeneral|sono
+graphy|sonobasics|2]| 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 193.
+(babel)             in language  on input line 185.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 193.
+(babel)             in language  on input line 185.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 185.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 185.
+[8 <./Abb/afm.jpg>]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 185.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 185.
 ) (./Kap/durchfuehrung.tex
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
@@ -1387,7 +1427,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 3.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 3.
-<Mess/freqsweep_2.pdf, id=164, 372.39125pt x 305.14pt>
+<Mess/freqsweep_2.pdf, id=159, 372.39125pt x 305.14pt>
 File: Mess/freqsweep_2.pdf Graphic file (type pdf)
 <use Mess/freqsweep_2.pdf>
 Package pdftex.def Info: Mess/freqsweep_2.pdf  used on input line 11.
@@ -1407,12 +1447,12 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 35.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 35.
-<Mess/gitter_paint.png, id=181, 456.20438pt x 405.76593pt>
+<Mess/gitter_paint.png, id=176, 456.20438pt x 405.76593pt>
 File: Mess/gitter_paint.png Graphic file (type png)
 <use Mess/gitter_paint.png>
 Package pdftex.def Info: Mess/gitter_paint.png  used on input line 44.
 (pdftex.def)             Requested size: 167.29967pt x 148.79987pt.
-<Mess/profil_gitter.pdf, id=182, 154.4169pt x 154.4169pt>
+<Mess/profil_gitter.pdf, id=177, 154.4169pt x 154.4169pt>
 File: Mess/profil_gitter.pdf Graphic file (type pdf)
 <use Mess/profil_gitter.pdf>
 Package pdftex.def Info: Mess/profil_gitter.pdf  used on input line 49.
@@ -1421,12 +1461,12 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 59.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 59.
-<Mess/spek_forw.pdf, id=184, 383.4325pt x 305.14pt>
+<Mess/spek_forw.pdf, id=179, 383.4325pt x 305.14pt>
 File: Mess/spek_forw.pdf Graphic file (type pdf)
 <use Mess/spek_forw.pdf>
 Package pdftex.def Info: Mess/spek_forw.pdf  used on input line 66.
 (pdftex.def)             Requested size: 250.95587pt x 199.71683pt.
-<Mess/spek_backw.pdf, id=185, 383.4325pt x 305.14pt>
+<Mess/spek_backw.pdf, id=180, 383.4325pt x 305.14pt>
 File: Mess/spek_backw.pdf Graphic file (type pdf)
 <use Mess/spek_backw.pdf>
 Package pdftex.def Info: Mess/spek_backw.pdf  used on input line 72.
@@ -1453,7 +1493,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 98.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 98.
-<Mess/cd_paint.png, id=273, 453.19313pt x 402.75468pt>
+<Mess/cd_paint.png, id=268, 453.19313pt x 402.75468pt>
 File: Mess/cd_paint.png Graphic file (type png)
 <use Mess/cd_paint.png>
 Package pdftex.def Info: Mess/cd_paint.png  used on input line 106.
@@ -1534,14 +1574,14 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 27.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 27.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 27.
 Package rerunfilecheck Info: File `afm.out' has not changed.
-(rerunfilecheck)             Checksum: E8CDCE8FFDC1DC8094FB2CB59B38FF78;1199.
+(rerunfilecheck)             Checksum: 8BE6FA7C29F8EAF119CCB38CEAEC3204;1128.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 27.
  ) 
 Here is how much of TeX's memory you used:
- 20917 strings out of 494798
- 401477 string characters out of 6176801
- 546276 words of memory out of 5000000
- 23997 multiletter control sequences out of 15000+600000
+ 20908 strings out of 494798
+ 401350 string characters out of 6176801
+ 547626 words of memory out of 5000000
+ 23989 multiletter control sequences out of 15000+600000
  540425 words of font info for 61 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
  48i,14n,66p,10375b,765s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1557,10 +1597,10 @@ amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
 cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on afm.pdf (16 pages, 896292 bytes).
+Output written on afm.pdf (16 pages, 895697 bytes).
 PDF statistics:
- 376 PDF objects out of 1000 (max. 8388607)
- 304 compressed objects within 4 object streams
- 59 named destinations out of 1000 (max. 500000)
- 200 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 370 PDF objects out of 1000 (max. 8388607)
+ 299 compressed objects within 3 object streams
+ 58 named destinations out of 1000 (max. 500000)
+ 192 words of extra memory for PDF output out of 10000 (max. 10000000)
 

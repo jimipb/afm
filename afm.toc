@@ -13,9 +13,8 @@
 \contentsline {paragraph}{\nonumberline Amplitudenmoduliertes Rasterkraftmikroskop}{7}{section*.7}
 \contentsline {paragraph}{\nonumberline Frequenzmoduliertes Rasterkraftmikroskop}{7}{section*.8}
 \contentsline {section}{\numberline {2.3}Aufbau des Rasterkraftmikroskops}{7}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Detektionseinheit}{8}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Rastermechanismus}{8}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}Detektionseinheit}{9}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.1}Rastermechanismus}{8}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Detektionseinheit}{9}{subsection.2.3.2}
 \contentsline {chapter}{\numberline {3}Versuchsdurchf\IeC {\"u}hrung}{10}{chapter.3}
 \contentsline {section}{\numberline {3.1}Charakterisierung des Cantilevers}{10}{section.3.1}
 \contentsline {section}{\numberline {3.2}\IeC {\"U}berpr\IeC {\"u}fung der Ger\IeC {\"a}teparameter}{11}{section.3.2}
