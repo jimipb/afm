@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.9.5)  19 DEC 2019 09:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.9.5)  29 DEC 2019 13:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1271,13 +1271,13 @@ Package pdftex.def Info: Abb/ljp.jpg  used on input line 45.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 56.
+(babel)             in language  on input line 54.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 56.
+(babel)             in language  on input line 54.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 56.
+(babel)             in language  on input line 54.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 56.
+(babel)             in language  on input line 54.
 [4
 
 ]
@@ -1299,115 +1299,75 @@ File: Abb/freqsweep.png Graphic file (type png)
 <use Abb/freqsweep.png>
 Package pdftex.def Info: Abb/freqsweep.png  used on input line 91.
 (pdftex.def)             Requested size: 250.95587pt x 128.70213pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 92--92
-[][]|\OT1/cmr/m/n/10.95 Re-so-nanz-kur-ve des Can-ti-le-vers [https://vetsuisse
-.com/vet-
- []
-
-
-Overfull \hbox (82.40347pt too wide) in paragraph at lines 92--92
-\OT1/cmr/m/n/10.95 iml/lernmodule/htmls/slide.html?radiosurfvet|radgeneral|sono
-graphy|sonobasics|2]| 
- []
-
-
-Overfull \hbox (148.3469pt too wide) in paragraph at lines 96--97
-[]\OT1/cmr/m/n/10.95 [https://vetsuisse.com/vet-iml/lernmodule/htmls/slide.html
-?radiosurfvet|radgeneral|sonography|sonobasics|2] 
- []
-
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 99.
+(babel)             in language  on input line 98.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 99.
+(babel)             in language  on input line 98.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 110.
+(babel)             in language  on input line 109.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 110.
+(babel)             in language  on input line 109.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 121.
+(babel)             in language  on input line 120.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 121.
+(babel)             in language  on input line 120.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 121.
+(babel)             in language  on input line 120.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 121.
-[6 <./Abb/freqsweep.png>]
+(babel)             in language  on input line 120.
+ [6 <./Abb/freqsweep.png>]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 123.
+(babel)             in language  on input line 124.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 123.
-
-Overfull \hbox (93.66496pt too wide) in paragraph at lines 132--135
-\OT1/cmr/m/n/10.95 um bis zu 30% ver-rin-gert wird. (http://www.physik.uni-rege
-nsburg.de/studium/praktika/f/fpAFM2010.pdf,
- []
-
+(babel)             in language  on input line 124.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 144.
+(babel)             in language  on input line 148.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 144.
+(babel)             in language  on input line 148.
 <Abb/afm.jpg, id=138, 1204.5pt x 1168.365pt>
 File: Abb/afm.jpg Graphic file (type jpg)
 <use Abb/afm.jpg>
-Package pdftex.def Info: Abb/afm.jpg  used on input line 147.
+Package pdftex.def Info: Abb/afm.jpg  used on input line 151.
 (pdftex.def)             Requested size: 250.95587pt x 243.42065pt.
-
-Overfull \hbox (4.29219pt too wide) in paragraph at lines 148--148
-[][]|\OT1/cmr/m/n/10.95 Auf-bau ei-nes AFM [htt-ps://de.wikipedia.org/wiki/Rast
-erkraftmikroskop]| 
- []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 157.
+(babel)             in language  on input line 160.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 157.
+(babel)             in language  on input line 160.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 168.
+(babel)             in language  on input line 160.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 168.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 168.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 168.
+(babel)             in language  on input line 160.
 [7]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 162.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 162.
 <Abb/piezo.jpg, id=147, 451.6875pt x 338.76563pt>
 File: Abb/piezo.jpg Graphic file (type jpg)
 <use Abb/piezo.jpg>
-Package pdftex.def Info: Abb/piezo.jpg  used on input line 171.
+Package pdftex.def Info: Abb/piezo.jpg  used on input line 176.
 (pdftex.def)             Requested size: 250.95587pt x 188.21873pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 172--172
-[][]|\OT1/cmr/m/n/10.95 Pie-zo-elek-tri-scher Ef-fekt [https://vetsuisse.com/ve
-t-
- []
-
-
-Overfull \hbox (82.40347pt too wide) in paragraph at lines 172--172
-\OT1/cmr/m/n/10.95 iml/lernmodule/htmls/slide.html?radiosurfvet|radgeneral|sono
-graphy|sonobasics|2]| 
- []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 185.
+(babel)             in language  on input line 186.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 185.
+(babel)             in language  on input line 186.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 185.
+(babel)             in language  on input line 186.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 185.
+(babel)             in language  on input line 186.
 [8 <./Abb/afm.jpg>]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 185.
+(babel)             in language  on input line 190.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 185.
+(babel)             in language  on input line 190.
 ) (./Kap/durchfuehrung.tex
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1.
@@ -1580,7 +1540,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 27.
 Here is how much of TeX's memory you used:
  20908 strings out of 494798
  401350 string characters out of 6176801
- 547626 words of memory out of 5000000
+ 545292 words of memory out of 5000000
  23989 multiletter control sequences out of 15000+600000
  540425 words of font info for 61 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
@@ -1597,7 +1557,7 @@ amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
 cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on afm.pdf (16 pages, 898153 bytes).
+Output written on afm.pdf (16 pages, 897477 bytes).
 PDF statistics:
  370 PDF objects out of 1000 (max. 8388607)
  299 compressed objects within 3 object streams
